@@ -15,7 +15,12 @@ const Projects = () => {
   }, {
     image1: 'https://k72.ca/uploads/caseStudies/LAMAJEURE_-_Son_sur_mesure/chalaxeur-thumbnail_img-1280x960.jpg',
     image2: 'https://k72.ca/uploads/caseStudies/SHELTON/thumbnailimage_shelton-1280x960.jpg'
-  }]
+  }
+, {
+    image1: 'https://images.unsplash.com/photo-1768584011431-90b5547a911e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D',
+    image2: 'https://images.unsplash.com/photo-1714332818313-627551693dbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D'
+  },
+]
 
 
   gsap.registerPlugin(ScrollTrigger)
@@ -36,7 +41,7 @@ const Projects = () => {
   })
 
   return (
-    <div className='lg:p-4 p-2 mb-[100vh]'>
+    <div className='lg:p-4 p-2 max-w-7xl'>
       <div className=' pt-[45vh]'>
         <h2 className='font-[font2] lg:text-[9.5vw] text-7xl uppercase'>Projets</h2>
       </div>
