@@ -1,0 +1,20 @@
+import React from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+
+const HomeBottomText = () => {
+
+  return (
+    <div className='font-[font2] flex items-center justify-center gap-2'>
+      <p className='absolute lg:w-[17vw] w-64 lg:right-0 right-0 bottom-28 lg:bottom-0.5 font-[font1] lg:text-sm text-xs leading-tight mt-10'>
+        &nbsp;K72 is an agency that carefully considers every action to nurture the brand. Tomorrow, in 5 months, and in 5 years. We seek out the friction that creates the spark to generate emotion. To ensure an honest relationship, we are unfiltered; we say what needs to be said, we do what needs to be done.</p>
+      <div className='lg:border-2 border-2 hover:border-[#D3FD50] hover:text-[#D3FD50] mt-40 lg:h-36 flex items-center px-3 lg:px-14 border-white rounded-full uppercase'>
+        <Link className='text-[6vw] lg:mt-6' to='/projects'>Projects</Link>
+      </div>
+      <div className='lg:border-2 border-2 hover:border-[#D3FD50] hover:text-[#D3FD50] mt-40 lg:h-36 flex items-center px-3 lg:px-14 border-white rounded-full uppercase'>
+        <Link className='text-[6vw] lg:mt-6' to='/agence'>agency</Link>
+      </div>
+    </div>
+  )
+}
+
+export default HomeBottomText
